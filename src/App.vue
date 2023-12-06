@@ -126,7 +126,7 @@
                 class="pais-content" 
                 title="No visitado aún">
                   <p class="mb-0">
-                    <img :src="pais.bandera.imagen" class="bandera me-2"/> 
+                    <img :src="pais.bandera.imagen" class="bandera me-2" loading="lazy"/> 
                     {{ pais.nombre }}
                   </p>
                   <i class="fas fa-times text-danger"></i>
